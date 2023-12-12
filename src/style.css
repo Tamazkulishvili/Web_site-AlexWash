@@ -1,0 +1,176 @@
+
+/* la portada */
+body{
+    background-color: white;
+}
+.selectores{
+    color: #003453;
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+    gap:5px;
+    
+}
+.main_encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 30px;
+    background-color: #cdf7ff;
+    margin: 50px;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 60px;
+    border-radius: 30px;
+    background-color: #cdf7ff;
+    font-size: 20px;
+    font-family:"Anton";
+    font-style: normal;
+    font-weight: 400;
+    text-shadow: 2px 5px 0px #ffd544;
+}
+
+h1{
+    color:#003453;
+    display: flex;
+    justify-content: flex-start;
+}
+.portada{
+    height: 500px;
+    border-radius: 30px;
+    background-color: #cdf7ff;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    
+}
+.camarillo{
+    height: 500px;
+}
+.desaliñado{
+    color: #ffd544;
+    font-family: "Anton";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+.tportada{
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0px;
+    font-family: "Anton";
+    text-shadow: 2px 5px 0px #000;
+}
+.boton_de_portada{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: 3px solid #003e70;
+    background: #fff;
+    box-shadow: 4px 4px 0px 0px #003e70;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #003e70;
+    font-family: "Poppins"
+}
+.hlimpiarlo{
+    color: #003453;
+    padding-bottom: 50px;
+    font-family: "Poppins";
+}
+.detalle{
+    color: #003e70 ;
+    
+}
+.portada_de_contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.encabezado{
+    
+    background: #cdf7ff;
+    
+}
+
+
+
+
+
+/* .precios_container*/
+
+.cuadrado{
+    width: 300px;
+    height: 700px;
+    padding: 10px;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 0px 30px 0px rgba(3, 57, 77, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.precios_container{
+    
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+}
+.texto_de_estilos{
+    color: #003453;
+    
+}
+.portada_de_precios{
+    color: #003453;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    border:20px solid #cdf7ff;
+    border-radius: 20px;
+    margin: 45px;
+}
+.condiciones{
+    font-size: 140%;
+   
+    
+}
+ul{
+    list-style: none
+}
+
+/* LA DIRECCION */
+.texto_de_direccion{
+    color: #003453;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    border:20px solid #cdf7ff;
+    border-radius: 20px;
+    margin: 45px;
+}
+.direccion{
+    color: #003453;
+    font-size: 2rem;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.mapa{
+    margin-top: 40px;
+    padding: 50px;
+}
